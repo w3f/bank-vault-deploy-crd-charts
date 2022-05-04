@@ -36,7 +36,7 @@ For a CRD, the declaration must be registered before any resources of that CRDs 
 ---
 ### Reconcile states
 
-Operator controllers work one level of abstraction higher than the Kubernetes controllers. The Kubernetes controllers reconcile built-in kinds like Deployment and Job into lower-level kinds like Pods. Custom controllers reconcile CRDs like [Bank-vault](https://github.com/banzaicloud/bank-vaults) into workload kinds like [Deployment]() and [Service.]() So, a custom controller's current state becomes a Kubernetes controller's desired state.
+Operator controllers work one level of abstraction higher than the Kubernetes controllers. The Kubernetes controllers reconcile built-in kinds like Deployment and Job into lower-level kinds like Pods. Custom controllers reconcile CRDs like [Bank-vault](https://github.com/banzaicloud/bank-vaults) into workload kinds like [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [Service.](https://kubernetes.io/docs/concepts/services-networking/) So, a custom controller's current state becomes a Kubernetes controller's desired state.
 
 Both `kinds` of controllers reconcile between the desired and current state, but it takes two rounds of transformation to deploy a workload for an operator's custom resource:
 
