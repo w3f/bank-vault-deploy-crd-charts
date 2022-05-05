@@ -1,5 +1,7 @@
 # bank-vault-deploy-crd-charts
 
+[![CircleCI](https://circleci.com/gh/w3f/bank-vault-deploy-crd-charts/tree/master.svg?style=svg)](https://circleci.com/gh/w3f/bank-vault-deploy-crd-charts/tree/master)
+
 A helmchart to Install a CRD Declaration before Using the `Vault` Resource in a given Cloud Platform deployment.
 
 ## Bank Vault
