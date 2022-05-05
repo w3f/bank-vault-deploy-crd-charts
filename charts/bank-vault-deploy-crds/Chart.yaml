@@ -1,3 +1,4 @@
+apiVersion: v2
 name: bank-vault-deploy-crds
 version: v0.1.0
 description: A Helm chart to deploy bank-vault operated vaults.
