@@ -1,4 +1,4 @@
-# crds-bank-vault-deploy
+# bank-vault-deploy-crd-charts
 
 A helmchart to Install a CRD Declaration before Using the `Vault` Resource in a given Cloud Platform deployment.
 
