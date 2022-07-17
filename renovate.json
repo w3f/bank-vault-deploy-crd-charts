@@ -19,7 +19,8 @@
 		  "addLabels": ["web3f"],
 		  "matchUpdateTypes": ["minor", "patch"],
 		  "automerge": true,
-		  "automergeType": "pr"
+		  "automergeType": "pr",
+      "platformAutomerge": true
 		}
   ]
 }
