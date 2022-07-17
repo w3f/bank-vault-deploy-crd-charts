@@ -16,7 +16,6 @@
   "packageRules": [
 		{
 		  "matchPackagePatterns": ["web3f/ci-commons"],
-		  "matchDepTypes": ["web3f/ci-commons"],
 		  "addLabels": ["web3f"],
 		  "matchUpdateTypes": ["minor", "patch"],
 		  "automerge": true,
