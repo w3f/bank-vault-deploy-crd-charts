@@ -9,8 +9,18 @@
   "helm-values": {
     "commitMessageTopic": "helm values {{depName}}",
     "fileMatch": [
-      "charts/bank-vault-deploy-crds/values.yaml"
+      "charts/bank-vault-deploy-crds/values.yaml$"
     ],
     "pinDigests": false
-  }
+  },
+  "packageRules": [
+		{
+		  "matchPackagePatterns": ["web3f/ci-commons"],
+		  "matchDepTypes": ["web3f/ci-commons"],
+		  "addLabels": ["web3f"],
+		  "matchUpdateTypes": ["minor", "patch"],
+		  "automerge": true,
+		  "automergeType": "pr"
+		}
+  ]
 }
