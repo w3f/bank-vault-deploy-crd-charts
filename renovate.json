@@ -9,7 +9,7 @@
   "helm-values": {
     "commitMessageTopic": "helm values {{depName}}",
     "fileMatch": [
-      "charts/bank-vault-deploy-crds/values.yaml$"
+      "./charts/bank-vault-deploy-crds/values.yaml$"
     ],
     "pinDigests": false
   },
