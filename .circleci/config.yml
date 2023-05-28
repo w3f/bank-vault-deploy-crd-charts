@@ -3,7 +3,7 @@ version: 2
 jobs:
   helmLint:
     docker:
-      - image: web3f/ci-commons:v3.2.1
+      - image: web3f/ci-commons:v3.2.2
     steps:
       - checkout
       - run:
@@ -12,7 +12,7 @@ jobs:
 
   publishChart:
     docker:
-      - image: web3f/ci-commons:v3.2.1
+      - image: web3f/ci-commons:v3.2.2
     steps:
       - checkout
       - run:
